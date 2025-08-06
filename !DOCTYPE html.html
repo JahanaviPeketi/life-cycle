@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>DevOps Lifecycle Demo</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Welcome to My DevOps Lifecycle Web App</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About This Project</h2>
+    <p>This simple web application demonstrates a DevOps lifecycle implementation using HTML, CSS, and GitHub Pages deployment.</p>
+  </section>
+
+  <section id="features">
+    <h2>Features</h2>
+    <ul>
+      <li>Clean, responsive design</li>
+      <li>GitHub-based version control</li>
+      <li>Continuous integration via GitHub Actions (optional)</li>
+      <li>Automated deployment to GitHub Pages</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:devops@example.com">devops@example.com</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 DevOps Lifecycle Demo</p>
+  </footer>
+</body>
+</html>
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background: #f4f4f4;
+  color: #333;
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+header {
+  background: #007acc;
+  color: white;
+  padding: 20px 10px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+nav ul {
+  list-style: none;
+  margin-top: 10px;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+section {
+  background: white;
+  margin-top: 20px;
+  padding: 15px 20px;
+  border-radius: 8px;
+}
+
+footer {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 0.9em;
+  color: #666;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  nav ul li {
+    display: block;
+    margin: 10px 0;
+  }
+}
